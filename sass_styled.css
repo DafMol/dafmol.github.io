@@ -1,0 +1,195 @@
+body {
+  background-color: rgba(0, 0, 0, 0.815);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main,
+.sidebar {
+  border: 3px solid rgba(0, 0, 0, 0.35);
+  padding: 15px;
+  background-color: beige;
+}
+
+.main {
+  width: 83%;
+  height: 255vh;
+  background-color: bisque;
+}
+
+.button-philo {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar {
+  width: 15%;
+  height: 55vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  background-color: bisque;
+  margin: 0px;
+}
+
+a {
+  color: white;
+  text-align: center;
+}
+
+.momo-header {
+  color: black;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.215);
+  text-align: center;
+}
+
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+  font-weight: bolder;
+  font-size: 17px;
+}
+a img {
+  border: 5px solid rgba(2, 18, 241, 0.1215);
+}
+
+nav {
+  margin-bottom: 65px;
+}
+
+#webdesigner {
+  text-align: center;
+  margin-top: 65px;
+}
+
+.container-fluid-philo, .container-fluid {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.container-fluid-philo {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-item {
+  font-weight: bolder;
+  border: 5px solid rgba(2, 18, 241, 0.1215);
+}
+
+.row {
+  background-color: bisque;
+}
+
+.row-philo {
+  position: relative;
+  left: 5%;
+  width: 150vh;
+  columns: 2;
+  margin-bottom: 15px;
+}
+
+.col-philo {
+  width: 400px;
+  margin-bottom: 25px;
+}
+
+.col-border-left {
+  border-left: 5px solid rgba(0, 0, 0, 0.35);
+  width: 350px;
+  left: 5%;
+}
+
+.philo-title {
+  text-align: center;
+  font-family: "Times New Roman", "Times", "serif";
+  font-weight: bolder;
+  font-size: 24px;
+  width: 400px;
+}
+
+.philo-paragraph {
+  text-align: center;
+  font-family: "Times New Roman", "Times", "serif";
+  font-size: 20px;
+  font-weight: normal;
+  width: 400px;
+}
+
+.horizontal-center-philo {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.table {
+  padding: 250px;
+}
+
+.vertical-center-philo, .vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.vertical-center-philo {
+  position: relative;
+  text-align: center;
+}
+
+.img-table {
+  width: 35px;
+}
+
+div figure {
+  padding: 25px;
+}
+
+.img-fluid:hover {
+  transition: transform 0.2s;
+  transition-delay: 1s;
+  margin: 0 auto;
+  transform: scale(1.4);
+  z-index: 100;
+  border: 3px solid rgba(0, 0, 0, 0.85);
+}
+
+.img-rel {
+  position: relative;
+  left: 2%;
+}
+
+.img-philo {
+  width: 390px;
+  margin: 0px;
+}
+
+.img-home {
+  width: 750px;
+}
+
+figure img {
+  width: 350px;
+}
+
+figcaption {
+  font-size: large;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=sass_styled.css.map */
